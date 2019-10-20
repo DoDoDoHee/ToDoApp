@@ -108,7 +108,7 @@ export default class App extends React.Component {
         <Header /> 
       </View>
       <View style={styles.subtitleposition}>
-        <Subtitle title="해야 할 일"/>
+        <Subtitle title="오늘 할일"/>
 
         <Input
           value ={this.state.inputValue}
@@ -135,7 +135,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ed7161',
   },
   headercenter: {
     alignItems:"center",
